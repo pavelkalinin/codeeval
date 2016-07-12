@@ -45,6 +45,7 @@
 * [MULTIPLES OF A NUMBER](https://www.codeeval.com/open_challenges/18/)
 * [NICE ANGLES](https://www.codeeval.com/open_challenges/160/)
 * [N MOD M](https://www.codeeval.com/open_challenges/62/)
+* [NOT SO CLEVER](https://www.codeeval.com/open_challenges/232/)
 * [ODD NUMBERS](https://www.codeeval.com/open_challenges/25/)
 * [ONE ZERO, TWO ZEROS...](https://www.codeeval.com/open_challenges/217/)
 * [PENULTIMATE WORD](https://www.codeeval.com/open_challenges/92/)
@@ -74,6 +75,8 @@
 * [WITHOUT REPETITIONS](https://www.codeeval.com/open_challenges/173/)
 * [WORD TO DIGIT](https://www.codeeval.com/open_challenges/104/)
 * [WORKING EXPERIENCE](https://www.codeeval.com/open_challenges/139/)
+
+
 * [ALTERNATIVE REALITY](https://www.codeeval.com/open_challenges/223/)
 * [ARRAY ABSURDITY](https://www.codeeval.com/open_challenges/41/)
 * [BATS CHALLENGE](https://www.codeeval.com/open_challenges/146/)
