@@ -11,7 +11,8 @@ import java.io.IOException;
  * https://www.codeeval.com/open_challenges/220/
  */
 public class TrickOrTreat {
-    private static final String FILE_NAME =  TestData.path + "trickortreat.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "trickortreat.txt";
 
     private static final int CANDIES_PER_VAMPIRE = 3;
     private static final int CANDIES_PER_ZOMBIE = 4;

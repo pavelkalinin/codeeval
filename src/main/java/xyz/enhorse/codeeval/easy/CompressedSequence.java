@@ -11,7 +11,8 @@ import java.io.IOException;
  */
 
 public class CompressedSequence {
-    private static final String FILE_NAME = TestData.path + "compressedsequence.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "compressedsequence.txt";
     private static final int BUFFER_SIZE = 1024;
 
     public static void main(String[] args) throws IOException {

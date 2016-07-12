@@ -14,7 +14,8 @@ import java.util.Set;
  */
 
 public class HappyNumbers {
-    private static final String FILE_NAME =  TestData.path + "happynumbers.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "happynumbers.txt";
 
     public static void main (String[] args) throws IOException {
         File file = new File(args.length > 0 ? args[0] : FILE_NAME);

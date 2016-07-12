@@ -11,7 +11,8 @@ import java.io.IOException;
  */
 
 public class AgeDistribution {
-    private static final String FILE_NAME =  TestData.path + "agedistribution.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "agedistribution.txt";
     private static final int BUFFER_SIZE = 1024;
     private static final String[] AGES = new String[]{
             "This program is for humans\n",

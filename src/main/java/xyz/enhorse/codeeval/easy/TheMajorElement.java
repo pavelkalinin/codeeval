@@ -11,7 +11,8 @@ import java.io.IOException;
  */
 
 public class TheMajorElement {
-    private static final String FILE_NAME =  TestData.path + "majorelement.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "majorelement.txt";
     private static final int BUFFER_SIZE = 1024;
     private static final String NONE = "None";
 

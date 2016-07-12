@@ -16,12 +16,12 @@ import java.util.regex.Pattern;
  */
 
 public class WorkingExperience {
-    private static final String FILE_NAME =  TestData.path + "workingexpirience.txt";
-    private static final Pattern PATTERN = Pattern.compile("([A-Z][a-z]{2})\\s*(\\d{4})-([A-Z][a-z]{2})\\s*(\\d{4})");
     public static final int MONTHS_PER_YEAR = 12;
     public static final int START = 1990;
     public static final int LAST = 2021;
     public static final int BUFFER_SIZE = 1024;
+    private static final String FILE_NAME = TestData.PATH + "workingexpirience.txt";
+    private static final Pattern PATTERN = Pattern.compile("([A-Z][a-z]{2})\\s*(\\d{4})-([A-Z][a-z]{2})\\s*(\\d{4})");
     private static final Map<String, Integer> MONTHS = new HashMap<String, Integer>(MONTHS_PER_YEAR) {
         {
             put("Jan", 1);

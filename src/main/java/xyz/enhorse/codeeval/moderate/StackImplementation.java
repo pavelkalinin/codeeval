@@ -12,7 +12,8 @@ import java.util.Stack;
  * https://www.codeeval.com/open_challenges/9/
  */
 public class StackImplementation {
-    private static final String FILE_NAME = TestData.path + "stackimplementation.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "stackimplementation.txt";
 
     public static void main (String[] args) throws IOException  {
         File file = new File(args.length > 0 ? args[0] : FILE_NAME);

@@ -14,7 +14,8 @@ import java.util.regex.Pattern;
  */
 
 public class CalculateDistance {
-    private static final String FILE_NAME = TestData.path + "calculatedistance.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "calculatedistance.txt";
     private static final Pattern PATTERN = Pattern.compile("-?\\d+");
 
     public static void main (String[] args) throws IOException {

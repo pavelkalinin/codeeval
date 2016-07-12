@@ -13,7 +13,8 @@ import java.util.BitSet;
  */
 
 public class Pangrams {
-    private static final String FILE_NAME = TestData.path + "pangrams.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "pangrams.txt";
     private static final int ALPHABET_SIZE = 26;
 
     public static void main (String[] args) throws IOException {

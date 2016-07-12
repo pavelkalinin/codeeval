@@ -11,7 +11,8 @@ import java.io.IOException;
  * https://www.codeeval.com/open_challenges/205/
  */
 public class CleanUpTheWords {
-    private static final String FILE_NAME =  TestData.path + "cleanupthewords.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "cleanupthewords.txt";
 
     public static void main (String[] args) throws IOException {
         File file = new File(args.length > 0 ? args[0] : FILE_NAME);

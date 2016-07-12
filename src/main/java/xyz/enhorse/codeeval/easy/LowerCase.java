@@ -12,7 +12,8 @@ import java.io.IOException;
  */
 
 public class LowerCase {
-    private static final String FILE_NAME =  TestData.path + "lowercase.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "lowercase.txt";
 
     public static void main (String[] args) throws IOException {
         File file = new File(args.length > 0 ? args[0] : FILE_NAME);

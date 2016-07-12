@@ -11,8 +11,8 @@ import java.io.IOException;
  */
 
 public class RacingChars {
-    private static final String FILE_NAME =  TestData.path + "racingchars.txt";
     public static final int BUFFER_SIZE = 1024;
+    private static final String FILE_NAME = TestData.PATH + "racingchars.txt";
     private static final String[] PATH = {"/", "|", "\\"};
 
     public static void main(String[] args) throws IOException {

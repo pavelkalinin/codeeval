@@ -11,7 +11,8 @@ import java.io.IOException;
  * https://www.codeeval.com/open_challenges/148/
  */
 public class ColorCodeConverter {
-    private static final String FILE_NAME = TestData.path + "colorcodeconverter.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "colorcodeconverter.txt";
 
     public static void main(String[] args) throws IOException {
         File file = new File(args.length > 0 ? args[0] : FILE_NAME);
@@ -100,6 +101,15 @@ public class ColorCodeConverter {
             setComponents(value);
         }
 
+
+        public abstract double[] convertToRGB();
+
+
+        private void setComponents(String value) {
+            components = parseComponents(value);
+        }
+
+
         public static ColorSchemes parse(String string) {
             if (string.startsWith("HSV")) {
                 HSV.setComponents(string);
@@ -117,8 +127,6 @@ public class ColorCodeConverter {
             return CMYK;
         }
 
-        public abstract double[] convertToRGB();
-
 
         private static double[] parseComponents(String color) {
             if (color.indexOf('#') == 0) {
@@ -132,6 +140,7 @@ public class ColorCodeConverter {
             }
             return components;
         }
+
 
         private static double[] computeRGBFromHUE(double hue, double c, double x, double m) {
             c = (c + m) * 255;
@@ -157,10 +166,6 @@ public class ColorCodeConverter {
                     return new double[]{c, m, x};
                 }
             }
-        }
-
-        private void setComponents(String value) {
-            components = parseComponents(value);
         }
     }
 }

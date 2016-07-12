@@ -11,8 +11,9 @@ import java.io.IOException;
  */
 
 public class RollerCoaster {
-    private static final String FILE_NAME =  TestData.path + "rollercoaster.txt";
     public static final int BUFFER_SIZE = 1024;
+    private static final String FILE_NAME = TestData.PATH + "rollercoaster.txt";
+
 
     public static void main (String[] args) throws IOException {
         StringBuilder result = new StringBuilder();
@@ -28,7 +29,7 @@ public class RollerCoaster {
                     up = true;
                 }
                 result.append(up ? Character.toUpperCase(ch) : Character.toLowerCase(ch));
-                up = ((ch >= 'A') && (ch <= 'Z')) || ((ch >= 'a') && (ch <= 'z')) ? !up : up;
+                up = (((ch >= 'A') && (ch <= 'Z')) || ((ch >= 'a') && (ch <= 'z'))) != up;
             }
         }
         System.out.println(result);

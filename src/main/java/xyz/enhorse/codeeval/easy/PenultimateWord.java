@@ -11,7 +11,8 @@ import java.io.IOException;
  */
 
 public class PenultimateWord {
-    private static final String FILE_NAME = TestData.path + "penultimateword.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "penultimateword.txt";
     private static final int BUFFER_SIZE = 1024;
 
     public static void main(String[] args) throws IOException {

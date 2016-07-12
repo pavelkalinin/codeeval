@@ -11,7 +11,8 @@ import java.io.IOException;
  * https://www.codeeval.com/open_challenges/54/
  */
 public class CashRegister {
-    private static final String FILE_NAME = TestData.path + "CashRegister.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "CashRegister.txt";
 
     public static void main(String[] args) throws IOException {
         File file = new File(args.length > 0 ? args[0] : FILE_NAME);

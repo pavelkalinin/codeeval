@@ -1,14 +1,19 @@
 package xyz.enhorse.codeeval.easy;
 
 import xyz.enhorse.codeeval.TestData;
-import java.io.*;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 
 /**
  * https://www.codeeval.com/open_challenges/140/
  */
 
 public class DataRecovery {
-    private static final String FILE_NAME = TestData.path + "datarecovery.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "datarecovery.txt";
 
     public static void main (String[] args) throws IOException {
         File inputFile = new File(args.length > 0 ? args[0] : FILE_NAME);

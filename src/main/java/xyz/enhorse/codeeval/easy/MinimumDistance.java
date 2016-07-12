@@ -11,7 +11,8 @@ import java.io.IOException;
  */
 
 public class MinimumDistance {
-    private static final String FILE_NAME = TestData.path + "minimumdistance.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "minimumdistance.txt";
     private static final int BUFFER_SIZE = 1024;
     private static final int MIN_NUMBER = 0;
     private static final int MAX_NUMBER = 10000;

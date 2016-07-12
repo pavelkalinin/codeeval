@@ -1,6 +1,7 @@
 package xyz.enhorse.codeeval.easy;
 
 import xyz.enhorse.codeeval.TestData;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -10,7 +11,8 @@ import java.io.IOException;
  */
 
 public class NmodM {
-    private static final String FILE_NAME = TestData.path + "nmodm.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "nmodm.txt";
     private static final int BUFFER_SIZE = 1024;
 
     public static void main(String[] args) throws IOException {

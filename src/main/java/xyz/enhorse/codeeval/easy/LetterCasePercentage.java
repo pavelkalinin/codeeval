@@ -11,7 +11,8 @@ import java.io.IOException;
  */
 
 public class LetterCasePercentage {
-    private static final String FILE_NAME = TestData.path + "lettercasepercentage.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "lettercasepercentage.txt";
     private static final int BUFFER_SIZE = 1024;
     private static final String OUTPUT_FORMAT_STRING = "lowercase: %.2f uppercase: %.2f\n";
 

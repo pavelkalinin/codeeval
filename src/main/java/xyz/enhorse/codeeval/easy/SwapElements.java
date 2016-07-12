@@ -11,7 +11,8 @@ import java.io.IOException;
  * https://www.codeeval.com/open_challenges/112/
  */
 public class SwapElements {
-    private static final String FILE_NAME =  TestData.path + "swapelements.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "swapelements.txt";
 
     public static void main (String[] args) throws IOException {
         File file = new File(args.length > 0 ? args[0] : FILE_NAME);

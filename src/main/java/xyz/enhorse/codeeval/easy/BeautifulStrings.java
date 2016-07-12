@@ -12,7 +12,8 @@ import java.util.Arrays;
  */
 
 public class BeautifulStrings {
-    public static final String FILE_NAME = TestData.path + "beautifulstrings.txt";
+
+    public static final String FILE_NAME = TestData.PATH + "beautifulstrings.txt";
     public static final int BUFFER_SIZE = 1024;
     public static final int ALPHABET_SIZE = 26;
 
@@ -89,14 +90,19 @@ public class BeautifulStrings {
             value++;
         }
 
-        @Override
-        public String toString() {
-            return String.format("%c = %d", getKey(), getValue());
-        }
 
         public int compareTo(@SuppressWarnings("NullableProblems") final Letter o) {
             return Integer.compare(o.getValue(), getValue());
         }
+
+
+        @Override
+        public int hashCode() {
+            int result = (int) getKey();
+            result = 31 * result + getValue();
+            return result;
+        }
+
 
         @Override
         public boolean equals(Object o) {
@@ -106,11 +112,10 @@ public class BeautifulStrings {
                     && getValue() == ((Letter) o).getValue();
         }
 
+
         @Override
-        public int hashCode() {
-            int result = (int) getKey();
-            result = 31 * result + getValue();
-            return result;
+        public String toString() {
+            return String.format("%c = %d", getKey(), getValue());
         }
     }
 }

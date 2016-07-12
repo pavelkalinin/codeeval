@@ -11,7 +11,8 @@ import java.io.IOException;
  */
 
 public class BigDigits {
-    private static final String FILE_NAME = TestData.path + "bigdigits.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "bigdigits.txt";
     private static final String STRIPE = "-----";
     private static final int BUFFER_SIZE = 1024;
     private static final String[][] DIGITS = {

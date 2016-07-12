@@ -6,7 +6,9 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -15,7 +17,8 @@ import java.util.regex.Pattern;
  */
 
 public class RoadTrip {
-    private static final String FILE_NAME =  TestData.path + "roadtrip.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "roadtrip.txt";
     private static final Pattern PATTERN = Pattern.compile("-?\\d+");
 
     public static void main (String[] args) throws IOException {

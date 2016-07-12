@@ -14,7 +14,8 @@ import java.util.TreeMap;
  */
 
 public class Football {
-    private static final String FILE_NAME =  TestData.path + "football.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "football.txt";
 
     public static void main(String[] args) throws IOException {
         File file = new File(args.length > 0 ? args[0] : FILE_NAME);

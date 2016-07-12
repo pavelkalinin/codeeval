@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class EvenNumbers {
     public static final int BUFFER_SIZE = 1024;
-    private static final String FILE_NAME = TestData.path + "evennumbers.txt";
+    private static final String FILE_NAME = TestData.PATH + "evennumbers.txt";
 
     public static void main(String[] args) throws IOException {
         File inputFile = new File(args.length > 0 ? args[0] : FILE_NAME);

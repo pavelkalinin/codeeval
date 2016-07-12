@@ -11,7 +11,8 @@ import java.io.IOException;
  */
 
 public class HiddenDigits {
-    private static final String FILE_NAME = TestData.path + "hiddendigits.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "hiddendigits.txt";
     private static final int BUFFER_SIZE = 1024;
     private static final String NONE = "NONE";
 

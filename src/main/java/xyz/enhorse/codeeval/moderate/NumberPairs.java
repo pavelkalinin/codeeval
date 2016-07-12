@@ -12,7 +12,8 @@ import java.util.StringTokenizer;
  * https://www.codeeval.com/open_challenges/34/
  */
 public class NumberPairs {
-    private static final String FILE_NAME = TestData.path+"numberpairs.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "numberpairs.txt";
 
     public static void main (String[] args) throws IOException {
         File file = new File(args.length > 0 ? args[0] : FILE_NAME);

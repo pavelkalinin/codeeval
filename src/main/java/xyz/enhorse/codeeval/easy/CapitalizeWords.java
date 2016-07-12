@@ -11,7 +11,8 @@ import java.io.IOException;
  */
 
 public class CapitalizeWords {
-    public static final String FILE_NAME = TestData.path + "capitalizewords.txt";
+
+    public static final String FILE_NAME = TestData.PATH + "capitalizewords.txt";
     public static final int BUFFER_SIZE = 1024;
 
     public static void main(String[] args) throws IOException {

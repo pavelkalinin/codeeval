@@ -11,7 +11,8 @@ import java.io.IOException;
  */
 
 public class ShortestRepetition {
-    private static final String FILE_NAME = TestData.path + "shortestrepetitions.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "shortestrepetitions.txt";
     private static final int BUFFER_SIZE = 1024;
 
     public static void main(String[] args) throws IOException {

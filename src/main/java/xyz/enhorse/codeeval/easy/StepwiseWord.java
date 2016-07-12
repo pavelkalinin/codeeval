@@ -11,7 +11,8 @@ import java.io.IOException;
  * https://www.codeeval.com/open_challenges/202/
  */
 public class StepwiseWord {
-    private static final String FILE_NAME = TestData.path + "stepwiseword.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "stepwiseword.txt";
 
     private static final String MAX_WORD_LENGTH = "**********";
 

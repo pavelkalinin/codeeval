@@ -13,7 +13,8 @@ import java.util.Map;
  */
 
 public class MorseCode {
-    private static final String FILE_NAME =  TestData.path + "morsecode.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "morsecode.txt";
     private static final Map<String, Character> TABLE = new HashMap<String, Character>(34) {
         {
             put(".-",'A');

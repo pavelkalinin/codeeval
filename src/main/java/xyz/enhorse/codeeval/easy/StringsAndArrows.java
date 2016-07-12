@@ -12,7 +12,8 @@ import java.util.Arrays;
  * https://www.codeeval.com/open_challenges/203/
  */
 public class StringsAndArrows {
-    private static final String FILE_NAME =  TestData.path + "stringsandarrows.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "stringsandarrows.txt";
 
     private static final char[] LEFT_ARROW = new char[] {'>', '>', '-', '-', '>'};
     private static final char[] RIGHT_ARROW = new char[] {'<', '-', '-', '<', '<'};

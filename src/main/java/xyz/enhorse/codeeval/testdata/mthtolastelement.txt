@@ -1,5 +1,0 @@
-a b c d 4
-e f g h 2
-i j k l 1
-m n o p 5
-q r s t u v w 5

@@ -13,7 +13,8 @@ import java.util.regex.Pattern;
  */
 
 public class BitPositions {
-    private static final String FILE_NAME = TestData.path + "bitpositions.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "bitpositions.txt";
     private static final int BUFFER_SIZE = 1024;
     private static final Pattern NUMBER_PATTERN = Pattern.compile("(\\d+),(\\d+),(\\d+)");
 

@@ -14,7 +14,8 @@ import java.util.regex.Pattern;
  */
 
 public class MultiplyNumber {
-    private static final String FILE_NAME =  TestData.path + "multiplynumbers.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "multiplynumbers.txt";
     private static final Pattern PATTERN = Pattern.compile("(\\d+),(\\d+)");
 
     public static void main(String[] args) throws IOException {

@@ -12,7 +12,8 @@ import java.io.IOException;
  */
 
 public class LongestWord {
-    private static final String FILE_NAME =  TestData.path + "longestword.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "longestword.txt";
 
     public static void main (String[] args) throws IOException {
         File file = new File(args.length > 0 ? args[0] : FILE_NAME);

@@ -11,7 +11,8 @@ import java.io.IOException;
  * https://www.codeeval.com/open_challenges/223/
  */
 public class AlternativeReality {
-    private static final String FILE_NAME = TestData.path + "alternativereality.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "alternativereality.txt";
     private static final int[] COINS = {1, 5, 10, 25, 50};
 
     public static void main(String[] args) throws IOException {

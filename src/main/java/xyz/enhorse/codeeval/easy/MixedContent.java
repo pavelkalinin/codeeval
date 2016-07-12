@@ -14,7 +14,8 @@ import java.util.regex.Pattern;
  */
 
 public class MixedContent {
-    private static final String FILE_NAME =  TestData.path + "mixedcontent.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "mixedcontent.txt";
     private static final Pattern NUMBER_PATTERN = Pattern.compile("(\\d+)");
     private static final Pattern WORD_PATTERN = Pattern.compile("([A-Za-z]+)");
 

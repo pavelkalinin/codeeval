@@ -11,7 +11,8 @@ import java.io.IOException;
  * https://www.codeeval.com/open_challenges/225/
  */
 public class Testing {
-    private static final String FILE_NAME = TestData.path+"testing.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "testing.txt";
     private static final String[] ERRORS_LEVEL =
             {"Done", "Low", "Low", "Medium", "Medium", "High", "High", "Critical"};
 

@@ -11,7 +11,8 @@ import java.io.IOException;
  * https://www.codeeval.com/open_challenges/211/
  */
 public class ChardonnayOrCabernet {
-    private static final String FILE_NAME = TestData.path + "chardonnayorcabernet.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "chardonnayorcabernet.txt";
 
     private static final int MAX_REMEMBERED_LETTERS = 5;
     private static final String NOT_FOUND = "False";

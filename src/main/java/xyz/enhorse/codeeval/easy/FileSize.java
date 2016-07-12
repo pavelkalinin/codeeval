@@ -9,7 +9,8 @@ import java.io.File;
  */
 
 public class FileSize {
-    public static final String FILE_NAME = TestData.path + "filesize.txt";
+
+    public static final String FILE_NAME = TestData.PATH + "filesize.txt";
 
     public static void main(String[] args) {
         File file = new File(args.length > 0 ? args[0] : FILE_NAME);

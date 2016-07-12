@@ -14,7 +14,8 @@ import java.util.List;
  * https://www.codeeval.com/open_challenges/222/
  */
 public class BlackCard {
-    private static final String FILE_NAME =  TestData.path + "blackcard.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "blackcard.txt";
 
     public static void main (String[] args) throws IOException {
         File file = new File(args.length > 0 ? args[0] : FILE_NAME);

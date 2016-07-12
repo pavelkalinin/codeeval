@@ -11,7 +11,8 @@ import java.io.IOException;
  */
 
 public class QueryBoard {
-    private static final String FILE_NAME = TestData.path + "queryboard.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "queryboard.txt";
     private static final int BUFFER_SIZE = 1024;
     private static final Board board = new Board(256, 256);
 

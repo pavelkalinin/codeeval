@@ -11,7 +11,8 @@ import java.io.IOException;
  */
 
 public class FizzBuzz {
-    private static final String FILE_NAME = TestData.path + "fizzbuzz.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "fizzbuzz.txt";
     private static final int BUFFER_SIZE = 1024;
     private static final char FIZZ = 'F';
     private static final char BUZZ = 'B';

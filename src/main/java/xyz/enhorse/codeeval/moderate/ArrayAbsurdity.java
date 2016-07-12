@@ -14,7 +14,8 @@ import java.util.Set;
  */
 
 public class ArrayAbsurdity {
-    private static final String FILE_NAME = TestData.path + "arrayabsurdity.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "arrayabsurdity.txt";
 
     public static void main (String[] args) throws IOException {
         File file = new File(args.length > 0 ? args[0] : FILE_NAME);

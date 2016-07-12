@@ -6,13 +6,17 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 /**
  * https://www.codeeval.com/open_challenges/2/
  */
 public class LongestLines {
-    private static final String FILE_NAME = TestData.path + "longestlines.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "longestlines.txt";
 
     public static void main (String[] args) throws IOException {
         File file = new File(args.length > 0 ? args[0] : FILE_NAME);

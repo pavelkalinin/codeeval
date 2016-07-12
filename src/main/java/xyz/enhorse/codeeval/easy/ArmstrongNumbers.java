@@ -12,7 +12,8 @@ import java.io.IOException;
  */
 
 public class ArmstrongNumbers {
-    private static final String FILE_NAME = TestData.path + "armstrongnumbers.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "armstrongnumbers.txt";
     private static final String YES = "True\n";
     private static final String NO = "False\n";
 

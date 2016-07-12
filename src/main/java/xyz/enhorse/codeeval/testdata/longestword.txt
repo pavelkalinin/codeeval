@@ -1,4 +1,0 @@
-some line with text
-another line
-fail error
-do more energizes today

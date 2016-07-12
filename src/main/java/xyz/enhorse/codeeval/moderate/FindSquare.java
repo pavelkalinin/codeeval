@@ -16,7 +16,7 @@ import java.util.regex.Pattern;
  */
 public class FindSquare {
     private static final Pattern PATTERN = Pattern.compile("\\d");
-    private static final String FILE_NAME = TestData.path + "FindSquare.txt";
+    private static final String FILE_NAME = TestData.PATH + "FindSquare.txt";
 
     public static void main(String[] args) throws IOException {
         File file = new File(args.length > 0 ? args[0] : FILE_NAME);

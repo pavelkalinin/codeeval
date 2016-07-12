@@ -12,7 +12,8 @@ import java.io.IOException;
  */
 
 public class HexToDec {
-    private static final String FILE_NAME =  TestData.path + "hextodec.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "hextodec.txt";
 
     public static void main (String[] args) throws IOException {
         File file = new File(args.length > 0 ? args[0] : FILE_NAME);

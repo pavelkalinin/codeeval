@@ -14,7 +14,8 @@ import java.util.regex.Pattern;
  */
 
 public class JsonMenuIDs {
-    private static final String FILE_NAME =  TestData.path + "jsonmenuids.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "jsonmenuids.txt";
     private static final Pattern PATTERN = Pattern.compile("\"id\": (\\d+), \"label\"");
 
     public static void main(String[] args) throws IOException {

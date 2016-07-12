@@ -12,7 +12,8 @@ import java.util.ArrayList;
  * https://www.codeeval.com/open_challenges/75/
  */
 public class FlaviousJosephus {
-    private static final String FILE_NAME = TestData.path + "FlaviousJosephus.txt";
+
+    private static final String FILE_NAME = TestData.PATH + "FlaviousJosephus.txt";
 
     public static void main(String[] args) throws IOException {
         File file = new File(args.length > 0 ? args[0] : FILE_NAME);
