@@ -60,6 +60,7 @@
 * [ROMAN NUMERALS](https://www.codeeval.com/open_challenges/106/)
 * [SELF DESCRIBING NUMBERS](https://www.codeeval.com/open_challenges/40/)
 * [SHORTEST REPETITION](https://www.codeeval.com/open_challenges/107/)
+* [SIMPLE OR TRUMP](https://www.codeeval.com/open_challenges/235/)
 * [SPLIT THE NUMBER](https://www.codeeval.com/open_challenges/131/)
 * [STEPWISE WORD](https://www.codeeval.com/open_challenges/202/)
 * [STRING MASK](https://www.codeeval.com/open_challenges/199/)
