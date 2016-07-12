@@ -31,7 +31,7 @@ public class LowestUniqueNumber {
         String[] strings = line.split(" ");
         int[] numbers = new int[strings.length];
         for (int i = 0; i < strings.length; i++) {
-            numbers[i] = Integer.valueOf(strings[i]);
+            numbers[i] = Integer.parseInt(strings[i]);
         }
 
         int[] digits = {0, 0, 0, 0, 0, 0, 0, 0, 0};

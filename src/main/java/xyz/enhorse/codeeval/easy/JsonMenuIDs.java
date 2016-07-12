@@ -29,7 +29,7 @@ public class JsonMenuIDs {
                 sum = 0;
                 Matcher matcher = PATTERN.matcher(line);
                 while (matcher.find()) {
-                    sum += Integer.valueOf(matcher.group(1));
+                    sum += Integer.parseInt(matcher.group(1));
                 }
                 result.append(sum).append('\n');
             }

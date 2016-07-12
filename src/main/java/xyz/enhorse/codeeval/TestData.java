@@ -10,7 +10,7 @@ import java.net.URL;
  */
 public class TestData {
 
-    public static String PATH = getFileFromURL();
+    public static final String PATH = getFileFromURL();
 
 
     private TestData() {

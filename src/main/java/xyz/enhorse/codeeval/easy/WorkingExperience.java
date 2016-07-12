@@ -54,9 +54,9 @@ public class WorkingExperience {
                 if ((input[i] == '\n') || ((inputLength == i + 1) && (inputLength < input.length))) {
                     matcher = PATTERN.matcher(line.toString());
                     while (matcher.find()) {
-                        from = (Integer.valueOf(matcher.group(2)) - START) * MONTHS_PER_YEAR
+                        from = (Integer.parseInt(matcher.group(2)) - START) * MONTHS_PER_YEAR
                                 + MONTHS.get(matcher.group(1));
-                        to = (Integer.valueOf(matcher.group(4)) - START) * MONTHS_PER_YEAR
+                        to = (Integer.parseInt(matcher.group(4)) - START) * MONTHS_PER_YEAR
                                 + MONTHS.get(matcher.group(3));
                         experience.set(from, to + 1);
                     }

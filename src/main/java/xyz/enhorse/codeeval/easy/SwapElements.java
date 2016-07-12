@@ -42,8 +42,8 @@ public class SwapElements {
         int[][] result = new int[parts.length][2];
         for (int i = 0; i < parts.length; i++) {
             String[] pair = parts[i].trim().split("-");
-            result[i][0] = Integer.valueOf(pair[0]);
-            result[i][1] = Integer.valueOf(pair[1]);
+            result[i][0] = Integer.parseInt(pair[0]);
+            result[i][1] = Integer.parseInt(pair[1]);
         }
         return result;
     }

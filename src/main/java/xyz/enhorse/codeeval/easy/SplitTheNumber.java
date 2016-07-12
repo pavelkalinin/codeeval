@@ -32,8 +32,8 @@ public class SplitTheNumber {
                 if ((input[i] == '\n') || ((inputLength == i + 1) && (inputLength < input.length))) {
                     matcher = PATTERN.matcher(line.toString());
                     while (matcher.find()) {
-                        first = Integer.valueOf(matcher.group(1).substring(0, matcher.group(2).length()));
-                        second = Integer.valueOf(matcher.group(1).substring(matcher.group(2).length(), matcher.group(1).length()));
+                        first = Integer.parseInt(matcher.group(1).substring(0, matcher.group(2).length()));
+                        second = Integer.parseInt(matcher.group(1).substring(matcher.group(2).length(), matcher.group(1).length()));
                         result.append(matcher.group(3).equals("+") ? first + second : first - second).append('\n');
                     }
                     line.setLength(0);

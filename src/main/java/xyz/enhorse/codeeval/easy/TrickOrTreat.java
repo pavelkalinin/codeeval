@@ -25,10 +25,10 @@ public class TrickOrTreat {
         StringBuilder result = new StringBuilder();
         while ((line = buffer.readLine()) != null) {
             String[] parts = line.split(", ");
-            int vampires = Integer.valueOf((parts[0].split(" "))[1]);
-            int zombies = Integer.valueOf((parts[1].split(" "))[1]);
-            int witches = Integer.valueOf((parts[2].split(" "))[1]);
-            int houses = Integer.valueOf((parts[3].split(" "))[1]);
+            int vampires = Integer.parseInt((parts[0].split(" "))[1]);
+            int zombies = Integer.parseInt((parts[1].split(" "))[1]);
+            int witches = Integer.parseInt((parts[2].split(" "))[1]);
+            int houses = Integer.parseInt((parts[3].split(" "))[1]);
             long current = vampires * CANDIES_PER_VAMPIRE + zombies * CANDIES_PER_ZOMBIE + witches * CANDIES_PER_WITCH;
             result.append(current * houses / (vampires + zombies + witches)).append('\n');
         }

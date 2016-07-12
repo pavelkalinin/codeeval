@@ -81,7 +81,7 @@ public class NotSoClever {
             int result = 0;
 
             if ((separator > 0) && (separator < data.length() - 1)) {
-                result = Integer.valueOf(data.substring(separator + 1).trim());
+                result = Integer.parseInt(data.substring(separator + 1).trim());
             }
 
             return result;
@@ -106,7 +106,7 @@ public class NotSoClever {
             int[] result = new int[strings.length];
 
             for (int i = 0; i < result.length; i++) {
-                result[i] = Integer.valueOf(strings[i]);
+                result[i] = Integer.parseInt(strings[i]);
             }
 
             return result;
@@ -119,7 +119,7 @@ public class NotSoClever {
         private final int[] array;
 
 
-        StupidSort(int[] array) {
+        StupidSort(final int[] array) {
             this.array = array;
         }
 
@@ -142,7 +142,7 @@ public class NotSoClever {
             int next = index + 1;
             boolean swapped = false;
 
-            if ((next < array.length) && array[index] > array[next]) {
+            if ((next < array.length) && (array[index] > array[next])) {
                 int tmp = array[index];
                 array[index] = array[next];
                 array[next] = tmp;

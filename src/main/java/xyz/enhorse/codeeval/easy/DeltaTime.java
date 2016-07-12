@@ -34,9 +34,9 @@ public class DeltaTime {
 
     private static long inSeconds(String time) {
         String[] parts = time.split(":");
-        int hours = Integer.valueOf(parts[0]);
-        int minutes = Integer.valueOf(parts[1]);
-        int seconds = Integer.valueOf(parts[2]);
+        int hours = Integer.parseInt(parts[0]);
+        int minutes = Integer.parseInt(parts[1]);
+        int seconds = Integer.parseInt(parts[2]);
         return seconds + (hours * 60 + minutes) * 60;
     }
 

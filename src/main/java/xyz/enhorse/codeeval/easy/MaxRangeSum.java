@@ -23,11 +23,11 @@ public class MaxRangeSum {
         int period, currentMax, max;
         while ((line = buffer.readLine()) != null) {
             String[] parts = line.split(";");
-            period = Integer.valueOf(parts[0]);
+            period = Integer.parseInt(parts[0]);
             String[] portfolio = parts[1].split(" ");
             int[] days = new int[portfolio.length];
             for (int i = 0; i < portfolio.length; i++) {
-                days[i] = Integer.valueOf(portfolio[i]);
+                days[i] = Integer.parseInt(portfolio[i]);
             }
             currentMax = 0;
             for (int i = 0; i < days.length - period + 1; i++) {
