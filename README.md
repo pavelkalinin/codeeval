@@ -48,6 +48,7 @@
 * [NOT SO CLEVER](https://www.codeeval.com/open_challenges/232/)
 * [ODD NUMBERS](https://www.codeeval.com/open_challenges/25/)
 * [ONE ZERO, TWO ZEROS...](https://www.codeeval.com/open_challenges/217/)
+* [PANACEA - TRUTH OR LIE](https://www.codeeval.com/open_challenges/237/)
 * [PENULTIMATE WORD](https://www.codeeval.com/open_challenges/92/)
 * [QUERY BOARD](https://www.codeeval.com/open_challenges/87/)
 * [RACING CHARS](https://www.codeeval.com/open_challenges/136/)
