@@ -37,6 +37,7 @@
 * [LOWEST UNIQUE NUMBER](https://www.codeeval.com/open_challenges/103/)
 * [MATRIX ROTATION](https://www.codeeval.com/open_challenges/178/)
 * [MAX RANGE SUM](https://www.codeeval.com/open_challenges/186/)
+* [MERSENNE PRIME](https://www.codeeval.com/open_challenges/240/)
 * [MINIMUM DISTANCE](https://www.codeeval.com/open_challenges/189/)
 * [MIXED CONTENT](https://www.codeeval.com/open_challenges/115/)
 * [MORSE CODE](https://www.codeeval.com/open_challenges/116/)
