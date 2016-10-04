@@ -95,6 +95,7 @@
 * [Mth TO LAST ELEMENT](https://www.codeeval.com/open_challenges/10/)
 * [NUMBER OF ONES](https://www.codeeval.com/open_challenges/16/)
 * [NUMBER PAIRS](https://www.codeeval.com/open_challenges/34/)
+* [OVERLAPPING RECTANGLES](https://www.codeeval.com/open_challenges/70/)
 * [PANGRAMS](https://www.codeeval.com/open_challenges/37/)
 * [PRIME NUMBERS](https://www.codeeval.com/open_challenges/46/)
 * [REMOVE CHARACTERS](https://www.codeeval.com/open_challenges/13/)
